@@ -7,7 +7,6 @@ Components kunnen in principe perfect handmatig aangemaakt worden. Je kan de bes
 
 ![alt_text](https://i.imgur.com/TT9FcyW.png "image_tooltip") Bekijk de structuur van de reeds aangemaakte "app component". Uit welke bestanden bestaat deze component? Hoe wordt de component opgeroepen?
 
-Open het project een een IDE. Maak in de folder ```./src/app``` een nieuw bestand aan met als naam ```contact.model.ts```. 
 
 ## Een nieuwe component maken
 Open een terminal venster en voer onderstaand commando uit:
