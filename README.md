@@ -60,9 +60,9 @@ Vervolgens initialiseren we dit object in de ```ngOnInit``` methode:
 tenslotte passen we de ```confession-item.component.html``` file aan zodat deze niet meer de statische data gebruikt, maar de data uit het object dat we net hebben aangemaakt:
 ```html
 <div>
-  <p class="post">{{confession.post}}</p>
-  <p class="author">{{confession.author}}</p>
-  <p class="department">{{confession.department}}</p>
+    <p class="post">{{confession?.post}}</p>
+    <p class="author">{{confession?.author}}</p>
+    <p class="department">{{confession?.department}}</p>
 </div>
 
 ```
